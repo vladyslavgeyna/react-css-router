@@ -1,0 +1,8 @@
+@import '../../../assets/styles/variables.scss';
+
+.dark [class*='header'] {
+	background-color: $primary-color-dark;
+}
+[class*='navlink'].active {
+	text-decoration: underline;
+}
